@@ -2,7 +2,7 @@
 # STAY CLEAN
 
 
-## Controls
+## How to run it
 
 
 ## What I made better
