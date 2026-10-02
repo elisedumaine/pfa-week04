@@ -33,6 +33,8 @@ def ew():
  Right after the line:   if poop["rect"].colliderect(player): 
  So that when the poop and the player collide, the message will appear.
 
+ The function def ew is making a ew message appear each time that the poop and player collide !
+
   
 
 ## One undo
