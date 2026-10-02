@@ -28,10 +28,7 @@ I did my own function on line 24: 'def ew'  :
 def ew():
     return "EW!"
 
-def ew():
-    print("EW! I NEED A SHOWER!")'
-
- to make it work, i added on line82: game["message"] = ew()
+ to make it work, i added on line84: game["message"] = ew()
  It is in the loop of the 'def update_poops' function. 
  Right after the line:   if poop["rect"].colliderect(player): 
  So that when the poop and the player collide, the message will appear.
