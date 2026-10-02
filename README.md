@@ -25,11 +25,13 @@ a dirt meter, collision feedback and a score.
 'def update_poops' : This function is managing the collision between the charater and the dirt falling. 
 
 I did my own function on line 24: 'def ew'  :
+def ew():
+    return "EW!"
 
 def ew():
     print("EW! I NEED A SHOWER!")'
 
- to make it work, i added on line82: print_dirty_message() 
+ to make it work, i added on line82: game["message"] = ew()
  It is in the loop of the 'def update_poops' function. 
  Right after the line:   if poop["rect"].colliderect(player): 
  So that when the poop and the player collide, the message will appear.
