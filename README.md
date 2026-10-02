@@ -3,7 +3,7 @@
 
 
 ## How to run it
-First, open your terminal and paste then enter those command lines:
+First, open your terminal, open a brand new text file and paste then enter those command lines:
 
 ```powershell
 py -m venv .venv
